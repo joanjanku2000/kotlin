@@ -1,5 +1,7 @@
-class Alien(private val name: String, private val age: Int) {
-
+class Alien(
+    private val name: String,
+    private val age: Int
+    ) {
 
     fun name(): String {
         return this.name
